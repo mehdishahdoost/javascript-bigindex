@@ -7,10 +7,22 @@
         function changeDemoText() {
             document.getElementById("demo").innerHTML = "Javascript Big Index";
         }
+
+        function turnOnLight() {
+            document.getElementById("light").src = "img/pic_bulbon.gif";
+        }
+
+        function turnOffLight() {
+            document.getElementById("light").src = "img/pic_bulboff.gif";
+        }
     </script>
 </head>
 <body>
 <button onclick="changeDemoText()">Change Demo Text</button>
 <div style="margin-top: 20px" id="demo">Demo</div>
+
+<button onclick="turnOnLight()">Turn on light</button>
+<button onclick="turnOffLight()">Turn Off light</button>
+<img src="img/pic_bulboff.gif" id="light"/>
 </body>
 </html>
