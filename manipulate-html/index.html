@@ -15,6 +15,18 @@
         function turnOffLight() {
             document.getElementById("light").src = "img/pic_bulboff.gif";
         }
+
+        function changeStyle() {
+            document.getElementById("changestyle").style.fontSize = "35px";
+        }
+
+        function hide() {
+            document.getElementById("hideshow").style.display = "none";
+        }
+
+        function show() {
+            document.getElementById("hideshow").style.display = "block";
+        }
     </script>
 </head>
 <body>
@@ -24,5 +36,10 @@
 <button onclick="turnOnLight()">Turn on light</button>
 <button onclick="turnOffLight()">Turn Off light</button>
 <img src="img/pic_bulboff.gif" id="light"/>
+<div style="margin-top: 10px" id="changestyle">JavaScript Big Index</div>
+<button onclick="changeStyle()">Change Style [font-size]</button>
+<div style="margin-top: 10px" id="hideshow">Hide/Show this element</div>
+<button onclick="hide()">Hide</button>
+<button onclick="show()">Show</button>
 </body>
 </html>
