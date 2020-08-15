@@ -1,2 +1,1 @@
-# javascript-bigindex
-JavaScript Big Index
+# Javascript Big Index
