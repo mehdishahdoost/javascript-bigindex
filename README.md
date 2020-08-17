@@ -46,3 +46,8 @@
     null === undefined // result false
 </code>
 </pre>
+
+* Comparing two JavaScript objects will always return false.
+* JavaScript Numbers are Always 64-bit Floating Point
+* NaN is a number: typeof NaN returns number.
+* Infinity is a number: typeof Infinity returns number.
