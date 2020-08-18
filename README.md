@@ -51,3 +51,22 @@
 * JavaScript Numbers are Always 64-bit Floating Point
 * NaN is a number: typeof NaN returns number.
 * Infinity is a number: typeof Infinity returns number.
+* toFixed(2) is perfect for working with money.
+* The valueOf() method is used internally in JavaScript to convert Number objects to primitive values.
+* In JavaScript, arrays use numbered indexes.  
+* In JavaScript, objects use named indexes.
+* Arrays are a special kind of objects, with numbered indexes.
+* There are generally 3 types of JavaScript date input formats:
+<pre>
+<code>
+ISO Date	"2015-03-25" (The International Standard)
+Short Date	"03/25/2015"
+Long Date	"Mar 25 2015" or "25 Mar 2015"
+</code>
+</pre>  
+The ISO format follows a strict standard in JavaScript. The other formats are not so well defined and might be browser specific.
+
+  
+  
+
+  
