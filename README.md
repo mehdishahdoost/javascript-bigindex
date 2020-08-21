@@ -66,6 +66,22 @@ Long Date	"Mar 25 2015" or "25 Mar 2015"
 </pre>  
 The ISO format follows a strict standard in JavaScript. The other formats are not so well defined and might be browser specific.
 
+### Functional Programming in JavaScript
+
+#### what is functional programming?
+
+* it's programming paradigm
+* A coding style
+* A mindset
+### Functional programming features
+
+* Do everything with functions
+* Avoid side effect : use pure function
+* Use Higher order functions : functions can be inputs/outputs
+* Don't iterate: map, filter, reduce
+* Avoid mutability: use immutable data
+* Persisted Data structure  
+
   
   
 
